@@ -10,7 +10,6 @@ int main(void)
 
     while (1)
     {   
-        //The LED connected to PB0 is toggled ON and OFF using PORTB register. The delay function _delay_ms(1000) creates a visible 1-second blink interval.
         // LED ON (PB0 HIGH)
         PORTB |= (1 << PB0);
         _delay_ms(1000);
@@ -22,3 +21,5 @@ int main(void)
 
     return 0;
 }
+
+/*The LED connected to PB0 is toggled ON and OFF using PORTB register. The delay function _delay_ms(1000) creates a visible 1-second blink interval.*/
